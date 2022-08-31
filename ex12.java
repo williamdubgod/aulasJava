@@ -7,31 +7,31 @@ public class ex12 {
 	public static void main(String[] args) {
 		Scanner ler = new Scanner(System.in);
 		
-		double lado1, lado2, lado3;
+		double v1, v2, v3;
 		
 		System.out.printf("Informe o valor do primeiro lado: ");
-		lado1 = ler.nextDouble();
+		v1 = ler.nextDouble();
 		
 		System.out.printf("Informe o valor do segundo lado: ");
-		lado2 = ler.nextDouble();
+		v2 = ler.nextDouble();
 		
 		System.out.printf("Informe o valor do terceiro lado: ");
-		lado3 = ler.nextDouble();
+		v3 = ler.nextDouble();
 		
-		if (lado1 + lado2 > lado3 || lado1 + lado3 > lado2 || lado2 + lado3 > lado1) {
-			System.out.printf("Esses valores formam um triângulo.\n");
-		}
-		if (lado1 == lado2 && lado1 == lado3) {
-			System.out.printf("Esse triângulo é equilátero.");
-		}
-		if (lado1 == lado2 && lado1 != lado3 || lado1 == lado3 && lado1 != lado2) {
-			System.out.printf("Esse triângulo é isósceles.");
-		}
-		if (lado1 != lado2 && lado1 != lado3 && lado2 != lado3) {
-			System.out.printf("Esse triângulo é escaleno.");
+		if((v1 + v2) > v3 && (v1 + v3) > v2 && (v2 + v3) > v1) {
+			System.out.printf("Esses valores formam um triangulo.\n");
+			if(v1 == v2 && v2 == v3) {
+				System.out.printf("Esse triangulo e equilatero.\n");
+			}
+			if((v1 == v2 && v1 != v3) || (v3 == v2 && v3 != v1) || (v1 == v3 && v1 != v2)) {
+				System.out.printf("Esse triangulo e isosceles.\n");
+			}
+			if(v1 != v2 && v2 != v3 && v1 != v3) {
+				System.out.printf("Esse triangulo e escaleno.\n");
+			} 
 		}
 		else {
-			System.out.printf("Desculpe, esses valores não formam um triângulo.");
+			System.out.printf("Esses valores nao formam um triangulo.\n");
 		}
 	}
 
