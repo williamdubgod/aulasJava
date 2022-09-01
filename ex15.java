@@ -1,8 +1,10 @@
+// Entrar via teclado com três valores distintos. Exibir o maior deles.
+
 package entrada_processamento_saida;
 
 import java.util.Scanner;
 
-public class ex10 {
+public class ex15 {
 
 	public static void main(String[] args) {
 		Scanner ler = new Scanner(System.in);
