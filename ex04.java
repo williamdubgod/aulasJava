@@ -1,3 +1,5 @@
+//Entrar via teclado, com quatro valores distintos e exibir a media.
+
 package entrada_processamento_saida;
 
 import java.util.Scanner;
