@@ -2,7 +2,7 @@ package entrada_processamento_saida;
 
 import java.util.Scanner;
 
-public class ex15 {
+public class ex20 {
 
 	public static void main(String[] args) {
 		Scanner ler = new Scanner(System.in);
