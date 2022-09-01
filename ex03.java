@@ -1,3 +1,5 @@
+//exibir a area do triangulo
+
 package entrada_processamento_saida;
 
 import java.util.Scanner;
