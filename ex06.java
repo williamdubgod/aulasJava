@@ -1,3 +1,5 @@
+//tranformar real em dolar.
+
 package entrada_processamento_saida;
 
 import java.util.Scanner;
