@@ -1,3 +1,5 @@
+//digitar o valor de 5 produtos. Exibir o valor e o troco.
+
 package entrada_processamento_saida;
 
 import java.util.Scanner;
