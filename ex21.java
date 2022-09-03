@@ -15,7 +15,7 @@ public class ex21 {
 		System.out.printf("Digite o valor da prova p2: ");
 		p2 = ler.nextDouble();
 		
-		media = (p1 + p2) / 3;
+		media = (p1 + (2 * p2)) / 3;
 		
 		if(media >= 5) {
 			System.out.printf("Parabens, sua media foi %.1f, voce esta aprovado!", media);
