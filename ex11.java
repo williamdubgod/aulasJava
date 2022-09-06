@@ -1,3 +1,5 @@
+//Entrar via teclado, com dois valores distintos. Exibir o menor deles.
+
 package entrada_processamento_saida;
 
 import java.util.Scanner;

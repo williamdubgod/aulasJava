@@ -1,3 +1,6 @@
+// Fazer um programa para entrar via teclado com os valores das notas (P1 e P2) e calcular a média. Exibir a situação final do aluno (“Aprovado ou Reprovado”), sabendo que a média de aprovação é igual a cinco.
+
+
 package entrada_processamento_saida;
 
 import java.util.Scanner;

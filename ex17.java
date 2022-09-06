@@ -1,3 +1,6 @@
+//A partir de três valores que serão digitados, verificar se formam ou não um triângulo. Em caso positivo, exibir sua classificação: “Isósceles, escaleno ou eqüilátero”.
+
+
 package entrada_processamento_saida;
 
 import java.util.Scanner;

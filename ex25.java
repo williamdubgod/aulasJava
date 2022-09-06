@@ -1,3 +1,5 @@
+// Faça um algoritmo que leia os valores A, B, C e imprima na tela se a soma de A + B é menor que C.
+
 package entrada_processamento_saida;
 
 import java.util.Scanner;

@@ -1,3 +1,5 @@
+//Entrar via teclado com dois valores quaisquer. Após a digitação, exibir um seletor de opções (“menu”) com as seguintes opções: (Fazer esse exercício utilizando If..Else e/ou Case)
+
 package entrada_processamento_saida;
 
 import java.util.Scanner;

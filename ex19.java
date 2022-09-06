@@ -1,3 +1,5 @@
+// Entrar com o peso, o sexo e a altura de uma determinada pessoa. Após a digitação, exibir se esta pessoa está ou não com seu peso ideal. Fórmula: peso/altura².
+
 package entrada_processamento_saida;
 
 import java.util.Scanner;

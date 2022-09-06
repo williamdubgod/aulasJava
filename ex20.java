@@ -1,3 +1,5 @@
+// A partir dos valores da aceleração (a em m/s2), da velocidade inicial (v0 em m/s) e do tempo de percurso (t em s). Calcular e exibir a velocidade final de automóvel em km/h. 
+
 package entrada_processamento_saida;
 
 import java.util.Scanner;

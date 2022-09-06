@@ -1,3 +1,5 @@
+// Exibir o seguinte seletor de opções e em função de uma escolha, solicitar os dados necessários para o cálculo da respectiva área. Enviar mensagem de erro se o usuário escolher uma opção inexistente.
+
 package entrada_processamento_saida;
 
 import java.util.Scanner;

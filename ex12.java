@@ -1,3 +1,5 @@
+//Entrar com dois valores quaisquer. Exibir o maior deles, se existir, caso contrário, enviar mensagem avisando que os números são idênticos.
+
 package entrada_processamento_saida;
 
 import java.util.Scanner;
