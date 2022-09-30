@@ -64,7 +64,7 @@ public class programaContaBancaria {
             System.out.printf("\nCliente cadastrado com sucesso %s!", listaClientes[i].exibirNomeIdade());
             
             if (listaClientes[i].conta != null) {
-            	System.out.printf("\nCliente: %s", listaClientes[i].exibirDadosConta());
+            	System.out.printf("\nConta bancaria: %s", listaClientes[i].exibirDadosConta());
             }
 	}
   }
